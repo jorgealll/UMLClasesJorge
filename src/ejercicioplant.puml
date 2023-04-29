@@ -1,19 +1,37 @@
 @startuml
 'https://plantuml.com/sequence-diagram
 
-class Event
-class conference
+class Event{
+date: Date
+description: String
+assign(I: Location) : void
+}
+class conference{
+max_attendees : Integer
+}
 class boardmeeting
 Event <|-- conference
 Event <|-- boardmeeting
 
-class person
-class member
+class person{
+name: String
+}
+class member{
+e-mail: String
+}
 class boardmember
 person <|-- member
 member <|-- boardmember
-class AAUOC
-class location
+class AAUOC{
+newLocation(I: Location): void
+newPerson(p: Person) : void
+newEvent(e: Event) : void register(m: Member,e: Event) : void
+informEvent(e: Event) : void
+}
+class location{
+description: String
+address: String
+}
 AAUOC <|-- location
 location -- Event
 Event -- member
