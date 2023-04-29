@@ -12,4 +12,11 @@ class member
 class boardmember
 person <|-- member
 member <|-- boardmember
+class AAUOC
+class location
+AAUOC <|-- location
+location -- Event
+Event -- member
+conference -- person
+AAUOC <|-- person
 @enduml

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2676d03-ba58-4a42-8c25-f2498b179111" name="Changes" comment="primer paso del trabajo" />
+    <list default="true" id="f2676d03-ba58-4a42-8c25-f2498b179111" name="Changes" comment="creacion de la jerarquia">
+      <change beforePath="$PROJECT_DIR$/src/ejercicioplant.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicioplant.puml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682754453210</updated>
       <workItem from="1682754454668" duration="405000" />
-      <workItem from="1682754877426" duration="1266000" />
+      <workItem from="1682754877426" duration="1652000" />
     </task>
     <task id="LOCAL-00001" summary="primer paso del trabajo">
       <created>1682756102043</created>
@@ -53,7 +55,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682756102043</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="creacion de la jerarquia">
+      <created>1682756320216</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682756320216</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,6 +81,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primer paso del trabajo" />
-    <option name="LAST_COMMIT_MESSAGE" value="primer paso del trabajo" />
+    <MESSAGE value="creacion de la jerarquia" />
+    <option name="LAST_COMMIT_MESSAGE" value="creacion de la jerarquia" />
   </component>
 </project>
