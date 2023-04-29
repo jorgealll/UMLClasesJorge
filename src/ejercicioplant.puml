@@ -10,8 +10,8 @@ class conference{
 max_attendees : Integer
 }
 class boardmeeting
-Event <|-- conference
-Event <|-- boardmeeting
+Event <|-- "0..*" conference
+Event <|-- "0..*" boardmeeting
 
 class person{
 name: String
@@ -20,8 +20,8 @@ class member{
 e-mail: String
 }
 class boardmember
-person <|-- member
-member <|-- boardmember
+person <|-- "0..*" member
+member <|-- "0..*" boardmember
 class AAUOC{
 newLocation(I: Location): void
 newPerson(p: Person) : void
@@ -32,9 +32,10 @@ class location{
 description: String
 address: String
 }
-AAUOC <|-- location
+AAUOC <|-- "0..*" location
 location -- Event
+AAUOC <|-- "0..*" Event
 Event -- member
 conference -- person
-AAUOC <|-- person
+AAUOC <|-- "0..*" person
 @enduml

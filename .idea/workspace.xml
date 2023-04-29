@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2676d03-ba58-4a42-8c25-f2498b179111" name="Changes" comment="estructura paso casi completa">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f2676d03-ba58-4a42-8c25-f2498b179111" name="Changes" comment="añadido de metodos a las clases">
       <change beforePath="$PROJECT_DIR$/src/ejercicioplant.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicioplant.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682754453210</updated>
       <workItem from="1682754454668" duration="405000" />
-      <workItem from="1682754877426" duration="2272000" />
+      <workItem from="1682754877426" duration="2636000" />
     </task>
     <task id="LOCAL-00001" summary="primer paso del trabajo">
       <created>1682756102043</created>
@@ -70,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682756738602</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="añadido de metodos a las clases">
+      <created>1682757250265</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682757250265</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +97,7 @@
     <MESSAGE value="primer paso del trabajo" />
     <MESSAGE value="creacion de la jerarquia" />
     <MESSAGE value="estructura paso casi completa" />
-    <option name="LAST_COMMIT_MESSAGE" value="estructura paso casi completa" />
+    <MESSAGE value="añadido de metodos a las clases" />
+    <option name="LAST_COMMIT_MESSAGE" value="añadido de metodos a las clases" />
   </component>
 </project>
